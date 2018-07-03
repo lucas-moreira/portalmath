@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../../estilo.css" type="text/css">
+<title>Introdução ao Conceito de Velocidade</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#006666" text="#FFFFFF">
+<table width="100%" border="0">
+  <tr> 
+    <td width="73%"> </td>
+	<td class="topo" align="right" width = "27%">Velocidade - Movimento</td>
+      </tr>
+</table>
+<p align="left"><strong>CONCEITO DE VELOCIDADE M&Eacute;DIA</strong></p>
+<p align="left">C1- Clique em play para iniciar a animação e observe</p>
+ <p align="center">
+<video width="520" height="440" controls>
+  <source src="Vídeo Parte II do Referencial.mp4" type="video/mp4">
+  <source src="Vídeo Parte II do Referencial.webm" type="video/webm">
+  <source src="Vídeo Parte II do Referencial.ogg" type="video/ogg">
+  
+Your browser does not support the video tag.
+</video>
+ <p align="left"> C2 - Complete os espa&ccedil;os apropriados, a partir das observações realizadas. 
+</p>
+<form>
+<table width="100%" border="0">
+    <tr> 
+      <td width="52%">Dados:</td>
+      <td width="48%">Complete:</td>
+    </tr>
+    <tr> 
+      <td>s<sub>0</sub>: 
+        <input name="R1" type="text" size="1" onChange="if(value == 2) {alert('Resposta Correta!');R2.disabled = false;} else {alert('Leia atentamente');}"> metros</td>
+      <td>&Delta;s = s - s<sub>0</sub>:   <input name="R4" disabled type="text" size="1" onChange="if(value == 48) {alert('Resposta Correta!');R5.disabled = false;} else {alert('Leia atentamente')}"> metros
+        &nbsp; <em>Varia&ccedil;&atilde;o do Espa&ccedil;o = Dist&acirc;ncia</em></td>
+    </tr>
+    <tr>
+      <td>Tempo: <input name="R2" type="text" disabled="true" size="1" onChange="if(value == 10) {alert('Resposta Correta!');R3.disabled = false;} else {alert('Leia atentamente')}">segundos </td>
+      <td>&Delta;t = t - t<sub>0</sub><input name="R5" disabled type="text" size="1" onChange="if (value == 10) {alert('Resposta Correta!');problema.disabled = false; problema.className = 'botao'}" > segundos
+        <em>&nbsp; Varia&ccedil;&atilde;o do tempo</em> </td>
+    </tr>
+    <tr> 
+      <td>s: 
+        <input name="R3" disabled type="text" size="1" onChange="if(value == 50) {alert('Resposta Correta!');R4.disabled = false;} else {alert('Leia atentamente')}"> metros</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <p>C3 - Clique no botão "Assim" e observe o cálculo da velocidade média. </p>
+ <div align="center" class="divspoiler">
+ <div align="center" class="divspoiler">
+ <input name="problema" type="button" value="Assim" disabled class = 'desativado'  onclick="if (this.parentNode.nextSibling.childNodes[0].style.visibility != '') { this.parentNode.nextSibling.childNodes[0].style.visibility = ''; this.value = 'Assim';proximo.disabled = false; } else { this.parentNode.nextSibling.childNodes[0].style.visibility = 'hidden'; this.value = 'Assim'; }" />
+</div><div><div id="spoiler"  class="spoiler" style="visibility: hidden;">
+     <img align="center" src='figura2.png'>
+<p align="center">Verifique a compreensão do conceito de velocidade média</p>
+<table width="100%" border="1">
+  <tr>
+    <td><p align="center"> A cada variação de um segundo no tempo o corpo variou 4,8 metros em sua posição ou a cada variação de um segundo no tempo o corpo percorre uma distância de 4,8 metros.</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p align="center">Você conseguiu compreender o conceito de velocidade média?</p>
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <input name="Sim"  type="radio" onClick="alert('Prossiga nas suas investigações.');parent.location.href= '../MenuTaxas.htm';" value="Sim">
+    Sim 
+    <input name="Nao"type="radio"  value="Nao" onClick="alert('Retorne à atividade e a refaça quantas vezes for necessário.');parent.location.href= 'Parte2.htm';">
+    Nao </div>
+</form>
+</div></div>
+</p>
+
+</form>
+</body>
+</html>

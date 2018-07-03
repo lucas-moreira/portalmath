@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../../estilo.css" type="text/css">
+<title>Regras de Variação</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#006666" text="#FFFFFF">
+<table width="100%" border="0">
+  <tr> 
+    <td width="78%"> </td>
+	<td class="topo" align="right" width = "22%">Testando a Regra da Cadeia</td>
+      </tr>
+</table>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O diagrama representa o lançamento de 
+  um foguete. No ponto O tem-se um observador o qual está situado a uma distância 
+  x do foguete. (poderia representar esta distância na figura) Suponha que este 
+  foguete.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suponha que este foguete seja lan&ccedil;ando 
+  e que o seu movimento seja um MRU (Movimento Retil&iacute;neo Uniforme &#8211; 
+  &eacute; aquele que a velocidade &eacute; constante &#8211; assim tanto a velocidade 
+  m&eacute;dia quanto a velocidade instant&acirc;nea em cada intervalo de tempo, 
+  ou exatamente no tempo indicado, s&atilde;o iguais). <br>
+  Inicialmente tem-se:</p>
+<p>h<sub>0</sub> = s<sub>0</sub> = 0 m(onde h<sub>0</sub> é a altura inicial do foguete).<br>
+&theta;<sub>0</sub> = 0° (O ângulo  é o ângulo de visão do observador citado).<br>
+t <sub>0</sub> = 0 s (Assim que o lançamento for iniciado o tempo começará a passar). </p>
+<p>C1 - Clique em play para o foguete ser lançado e observe atentamente. Após preencha os campos indicados.</p>
+<p align="center">&nbsp;</p>
+<p align="center"><video width="520" height="440" controls>
+  <source src="XFogueteP1.mp4" type="video/mp4">
+  <source src="XFogueteP1.webm" type="video/webm">
+  <source src="XFogueteP1.ogg" type="video/ogg"></video></p>
+<form action="" method="get" name="form1">
+<table width="100%" border="3">
+  <tr>
+    <td> <p align="center"><strong>Parte 1: </strong></p>
+	<p>s<sub>0</sub>= <input name="resposta1" type="text" onChange="if (value == 0) {alert('Correto!'); resposta2.disabled = false;}
+else { alert('Analise os dados.');}" size="3"> (Posição incial do foguete)</p>
+<p>s = <input name="resposta2" disabled type="text" onChange="if (value == 1200) {alert('Correto!'); texto1.style.visibility=''; resposta3.disabled = false;}
+else { alert('Analise os dados.');}" size="3"> = h (Posição final do foguete no tempo indicado)</p>
+<p><div id="texto1" style="visibility: hidden">&Delta;h = &Delta;s = 1200 m   </div></p>
+	<p>&theta;<sub>0</sub>= <input name="resposta3" disabled type="text" onChange="if (value == 0) {alert('Correto!'); resposta4.disabled = false;}
+else { alert('Analise os dados.');}" size="3">° (Ângulo inicial)</p>
+	<p>&theta;= <input name="resposta4" disabled type="text" onChange="if (value == 30) {alert('Correto!'); texto2.style.visibility=''; resposta5.disabled = false;}
+else { alert('Analise os dados.');}" size="3">° (Ângulo final)</p>
+	<p><div id="texto2" style="visibility: hidden">&Delta;&theta; = 30° </div></p>
+	<p>t<sub>0</sub>= <input name="resposta5" disabled type="text" onChange="if (value == 0) {alert('Correto!'); resposta6.disabled = false;}
+else { alert('Analise os dados.');}" size="3">° (Tempo inicial)</p>
+	<p>t = <input name="resposta6" disabled type="text" onChange="if (value == 6) {alert('Correto!'); texto3.style.visibility=''; proximo.disabled = false; proximo.className = 'botao';}
+else { alert('Analise os dados.');}" size="3">s (Tempo final)</p>
+	<p><div id="texto3" style="visibility: hidden">&Delta;t = 6 s</div></p>
+</td>
+  </tr>
+</table>
+<p></p>
+<table width="100%" border="0">
+  <tr> 
+    <td width="33%" height="21" align="left">&nbsp;</td>
+    <td width="33%" align="center" valign="middle"><input name="menu" class="botao" type="button" onClick="parent.location.href = '../MenuRegras.htm';" value="Menu Regras De Variação"></td>
+    <td width="34%" align="right"><input name="proximo" disabled class="desativado" type="button" onClick="parent.location.href = 'Parte2.htm';" value="Pr&oacute;ximo"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* CSS Document */
+h1{
+font: 20 px Tahoma;
+}
+.topo{
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#4f7066;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:0px 2px 5px #000000;
+-moz-box-shadow:0px 2px 5px #000000;
+-webkit-box-shadow:0px 2px 5px #000000;
+border-radius:90px 0px 0px 0px;
+-moz-border-radius:90px 0px 0px 0px;
+-webkit-border-radius:90px 0px 0px 0px;
+width:auto;
+padding:20px 43px;
+cursor:auto;
+margin:0 auto;
+}
+invisible{
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#006666;
+}
+body{
+font: 20px Tahoma;
+background-size: 100%;
+}
+table{
+font: 20px Tahoma;
+background-size: 100%;
+}
+}
+td{
+font: 20 px Tahoma;
+}
+.desativado{
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ccccc;
+background:#4f7066;
+border:0px solid #ffffff;
+border-radius:90px 90px 90px 90px;
+-moz-border-radius:90px 90px 90px 90px;
+-webkit-border-radius:90px 90px 90px 90px;
+width:auto;
+padding:0px 90px;
+cursor:arrow;
+margin:0 auto;
+}
+
+.botao{
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#4f7066;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:0px 2px 5px #000000;
+-moz-box-shadow:0px 2px 5px #000000;
+-webkit-box-shadow:0px 2px 5px #000000;
+border-radius:90px 90px 90px 90px;
+-moz-border-radius:90px 90px 90px 90px;
+-webkit-border-radius:90px 90px 90px 90px;
+width:auto;
+padding:0px 90px;
+cursor:pointer;
+margin:0 auto;
+}
+.botao:active{
+cursor:pointer;
+position:relative;
+top:2px;
+color : #1eadd1;
+box-shadow:0px 2px 50px #1eadd1;;
+-moz-box-shadow:0px 2px 50px #1eadd1;;
+-webkit-box-shadow:0px 2px 50px #1eadd1;;
+}
+.botao:hover{
+cursor : pointer;
+position : relative;
+bottom : 2px;
+color : #1eadd1;
+box-shadow:0px 2px 50px #1eadd1;;
+-moz-box-shadow:0px 2px 50px #1eadd1;;
+-webkit-box-shadow:0px 2px 50px #1eadd1;;
+}
+.menu{
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#1eadd1;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:0px 2px 5px #000000;
+-moz-box-shadow:0px 2px 5px #000000;
+-webkit-box-shadow:0px 2px 5px #000000;
+border-radius:0px 0px 0px 0px;
+-moz-border-radius:0px 0px 0px 0px;
+-webkit-border-radius:0px 0px 0px 0px;
+width:407px;
+padding:20px 43px;
+cursor:auto;
+margin:0 auto;
+}
+.cinco{
+font:bold 20px Tahoma;
+font-style:strong;
+color:#00000;
+border: 0 px;
+background:#006666;
+width:auto;
+padding:0px 0px;
+cursor:pointer;
+margin:0 auto;
+}
+.cinco:active{
+cursor:pointer;
+position:relative;
+top:2px;
+color : #1eadd1;
+}
+.cinco:hover{
+cursor : pointer;
+position : relative;
+color : #1eadd1;
+}

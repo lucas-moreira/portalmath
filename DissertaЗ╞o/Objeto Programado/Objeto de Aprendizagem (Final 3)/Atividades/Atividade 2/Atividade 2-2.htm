@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../../estilo.css" type="text/css">
+<title>Atividade 2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#006666" text="#FFFFFF">
+<table width="100%" border="0">
+  <tr> 
+    <td width="73%"> </td>
+	<td class="topo" align="right" width = "32%">Atividade 2 : Variação da resistência 
+      em um circuito</td>
+      </tr>
+</table>
+<table width="100%" height="93" border="5">
+  <tr> 
+    <td valign="top"><p>Variando a voltagem: A voltagem V (volts), a corrente 
+        I (em amp&egrave;res) e a resist&ecirc;ncia R (ohms) de um circuito el&eacute;trico 
+        est&atilde;o relacionadas entre si pela equal&ccedil;&atilde;o V = IR. 
+        Suponha que V esteja aumentando a uma taxa de 1 volt/s, enquanto I est&aacute; 
+        diminuindo a uma taxa de 1/3 A/s. Sendo o tempo dado em s. Encontre a 
+        taxa com a qual R est&aacute; variando quando V = 12 v e I = 2A.</p>
+      <table width="100%" border="0">
+        <tr> 
+          <td align="right">Adaptado - GEORGE B. THOMAS, 10&ordf;&nbsp; edi&ccedil;&atilde;o, 
+            p. 203 - n&ordm; 5.</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<p>3&ordm;) Volte ao enunciado e retire as informa&ccedil;&otilde;es dadas:(Se 
+  resposta for fração, digite o valor com 4 casas decimais, usando o ponto para 
+  dividir parte inteira de parte fracionária. Devido a limita&ccedil;&otilde;es 
+  do sistema).</p>
+<form id = "form1" name="form1" method="post" action="">
+<p>dV/dt = 
+    <input name="resposta1" type="text" onChange="if (value == 1) {alert('Correto!'); resposta2.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    volts/s</p>
+  <p>dI/dt = 
+    <input name="resposta2" type="text" disabled="true" onChange="if (value == -0.3333) { alert('Correto!'); resposta3.disabled = false;}
+else { alert('Leia atentamente a atividade. Obs: O NÚMERO DEVE SER ESCRITO NA FORMA DECIMAL E NÃO SE ESQUEÇA DE OBSERVAR SE A VARIAÇÃO É POSITIVA OU NEGATIVA.');}" size="5">
+    A/s</p>
+	<p>V = 
+    <input name="resposta3" type="text" disabled="true" onChange="if (value == 12) { alert('Correto!'); resposta4.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    v </p>
+   <p>I&nbsp; =&nbsp; 
+    <input name="resposta4" type="text" disabled="true" onChange="if (value == 2) { alert('Correto!'); x1.disabled = false; x2.disabled = false;x3.disabled = false;x4.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    A</p>
+  <p>4&ordm;) Volte ao enunciado para avaliar o que se pretende descobrir. &quot;Marque 
+    a op&ccedil;&atilde;o correta&quot;.</p>
+  <p>
+    <input name="x1" type="radio" disabled="true" onClick="if (x2.checked = true) {x2.checked = false;}if (x3.checked = true) {x3.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>dV/dI</label>
+    (A taxa de varia&ccedil;&atilde;o da voltagem em rela&ccedil;&atilde;o a corrente). 
+  </p>
+  <p>
+    <input name="x3" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x2.checked = true) {x2.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>dR/dI</label>
+    (A taxa de varia&ccedil;&atilde;o da resist&ecirc;ncia em rela&ccedil;&atilde;o 
+    a corrente). </p>
+  <p>
+    <input name="x4" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x2.checked = true) {x2.checked = false;}if (x3.checked = true) {x3.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>dt/dR</label>
+    (A taxa de varia&ccedil;&atilde;o do tempo em rela&ccedil;&atilde;o a resist&ecirc;ncia). 
+  </p>
+  <p> 
+    <input name="x2" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x3.checked = true) {x3.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Resposta correta.'); proximo.className ='botao'; proximo.disabled = false; " value="radiobutton">
+    <label>dR/dt</label>
+    (A taxa de varia&ccedil;&atilde;o da resist&ecirc;ncia em rela&ccedil;&atilde;o 
+    ao tempo). </p>
+  <table width="100%" border="0">
+    <tr> 
+      <td width="33%" height="21" align="left"><input name="voltar" class="botao" type="button" onClick="parent.location.href = 'Atividade 2-1.htm';" value="Voltar"></td>
+      <td width="33%" align="center" valign="middle"><input name="menuatividades" class="botao" type="button" onClick="parent.location.href = '../menuprincipal.htm';" value="Menu Atividades"></td>
+      <td width="34%" align="right"><input name="proximo" class="desativado" disabled = "disabled" type="button" onClick="parent.location.href = 'Atividade 2-3.htm';" value="Pr&oacute;ximo"></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  </form>
+</body>
+</html>

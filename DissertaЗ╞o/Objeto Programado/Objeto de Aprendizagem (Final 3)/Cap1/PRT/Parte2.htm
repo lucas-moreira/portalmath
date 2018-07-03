@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../../estilo.css" type="text/css">
+<title>O problema da reta tangente a uma curva</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#006666" text="#FFFFFF">
+<table width="100%" border="0">
+  <tr> 
+    <td width="62%"> </td>
+	<td class="topo" align="right" width = "38%">Conceitos Iniciais: Taxa de Variação 
+      Média e Taxa de Variação Instantânea</td>
+      </tr>
+</table>
+<p><strong>Questionamentos: </strong> </p>
+<ul>
+  <li>Agora se o x<sub>b</sub> for se aproximando do x<sub>a</sub> o que iria 
+    acontecer?</li>
+  <li>O que acontece com a reta secante?</li>
+  <li>E o coeficiente angular &Delta;y/&Delta;x, o que acontece com a inclinação 
+    na reta secante durante o processo?</li>
+</ul>
+<p>C1 - Arraste o cursor de a=8 at&eacute; a=16.<br>
+  C2 - Observe o gr&aacute;fico seguinte e a tabela a baixo e verifique se seus 
+  questionamentos foram respondidos.</p>
+<p> 
+  <applet name="ggbApplet" code="geogebra.GeoGebraApplet" archive="geogebra.jar"
+	codebase="http://jars.geogebra.org/webstart/4.2/unsigned/"
+	width="1000" height="703">
+    <param name="ggbBase64" value="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" />
+    <param name="java_arguments" value="-Xmx1024m -Djnlp.packEnabled=true" />
+    <param name="cache_archive" value="geogebra.jar, geogebra_main.jar, geogebra_gui.jar, geogebra_cas.jar, geogebra_algos.jar, geogebra_export.jar, geogebra_javascript.jar, jlatexmath.jar, jlm_greek.jar, jlm_cyrillic.jar, geogebra_properties.jar" />
+    <param name="cache_version" value="4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0, 4.2.21.0" />
+    <param name="showResetIcon" value="false" />
+    <param name="enableRightClick" value="false" />
+    <param name="errorDialogsActive" value="true" />
+    <param name="enableLabelDrags" value="false" />
+    <param name="showMenuBar" value="false" />
+    <param name="showToolBar" value="false" />
+    <param name="showToolBarHelp" value="false" />
+    <param name="showAlgebraInput" value="false" />
+    <param name="useBrowserForJS" value="true" />
+    <param name="allowRescaling" value="true" />
+    This is a Java Applet created using GeoGebra from www.geogebra.org - it looks 
+    like you don't have Java installed, please go to www.java.com 
+  </applet>
+  <img src="tabela1.PNG"> </p>
+<p>C3 - A partir das observa&ccedil;&otilde;es realizadas tente responder as quest&otilde;es 
+  abaixo marcando a op&ccedil;&atilde;o que julgar mais correta.</p>
+<p>1 - Enquanto a abscissa x<sub>b</sub> aproxima-se da x<sub>a</sub>, verifique 
+  que o ponto B caminha na curva em direção ao ponto A, o incremento -&Delta;x 
+  e o quociente &Delta;y/&Delta;y, respectivamente: </p>
+<form id = "form1" name="form1" method="post" action="">
+  <p> 
+    <input name="x1" type="radio"  onClick="if (x2.checked = true) {x2.checked = false;}if (x3.checked = true) {x3.checked = false;}alert('Resposta correta.'); x4.disabled = false ; x5.disabled = false ; x6.disabled = false;" value="radiobutton">
+    <label></label>
+    tende a zero e tende a um n&uacute;mero fixo.</p>
+  <p> 
+    <input name="x2" type="radio" onClick="if (x1.checked = true) {x1.checked = false;}if (x3.checked = true) {x3.checked = false;}alert('Leia atentamente a atividade'); " value="radiobutton">
+    <label></label>
+    tende a dois e tende a zero.</p>
+  <p> 
+    <input name="x3" type="radio" onClick="if (x1.checked = true) {x1.checked = false;}if (x2.checked = true) {x2.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label></label>
+    tende a trinta e seis e tende a dois.</p>
+  <p>2- De acordo com a movimentação do gráfico a reta secante:</p>
+  <p> 
+    <input name="x4" disabled = "true" type="radio" onClick="if (x5.checked = true) {x5.checked = false;}if (x6.checked = true) {x6.checked = false;}alert('Resposta correta.'); x7.disabled = false ; x8.disabled = false ; x9.disabled = false;" value="radiobutton">
+    <label></label>
+    se aproxima da reta tangente passando pelo ponto A.</p>
+  <p> 
+    <input name="x5" disabled = "true" type="radio" onClick="if (x4.checked = true) {x4.checked = false;}if (x6.checked = true) {x6.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label></label>
+    manteve-se parada s&oacute; variando a sua inclina&ccedil;&atilde;o.</p>
+	
+  <p> 
+    <input name="x6" disabled = "true" type="radio" onClick="if (x5.checked = true) {x5.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>inclina-se de diferentes modos e pára no ponto A, quando se torna uma 
+    reta secante passando apenas por um único ponto.</label>
+  </p>
+  <p>3 - De acordo com a tabela o que acontece com o coeficiente angular da reta 
+    secante neste processo? </p>
+	<p> 
+    <input name="x7" disabled = "true" type="radio" onClick="if (x8.checked = true) {x8.checked = false;}if (x9.checked = true) {x9.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label></label>
+    tende a zero.</p>
+	  <p> 
+    <input name="x8" disabled = "true" type="radio" onClick="if (x7.checked = true) {x7.checked = false;}if (x9.checked = true) {x9.checked = false;}alert('Resposta correta.'); x10.disabled = false ; x11.disabled = false ; x12.disabled = false;" value="radiobutton">
+    <label></label>
+	tende a um coeficiente angular fixo.</p>
+		
+  <p> 
+    <input name="x9" disabled = "true" type="radio" onClick="if (x8.checked = true) {x8.checked = false;}if (x7.checked = true) {x7.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label></label>
+    fica estagnado, pois o que está variando são os incrementos.</p>
+  <p>4 - A reta secante se aproxima da reta tangente quando o incremento em x 
+    tende a zero. E o coeficiente angular da reta tangente aproxima-se de:</p>
+  <p> 
+    <input name="x10" disabled = "true" type="radio" onClick="if (x11.checked = true) {x11.checked = false;}if (x12.checked = true) {x12.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label></label>
+    20.</p>
+  <p> 
+    <input name="x11" disabled = "true" type="radio" onClick="if (x10.checked = true) {x10.checked = false;}if (x12.checked = true) {x12.checked = false;}alert('Resposta correta.'); x13.disabled = false ; x14.disabled = false;" value="radiobutton">
+    <label></label>
+    19,6.</p>
+  <p> 
+    <input name="x12" disabled = "true" type="radio" onClick="if (x10.checked = true) {x10.checked = false;}if (x11.checked = true) {x11.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>19,65.</label>
+  </p>
+  
+  <p>5 - A reta secante aproxima-se da reta tangente &agrave; curva dada passando 
+    pelo ponto A e, o seu coeficiente angular &eacute; o limite do quociente &Delta;y/&Delta;x 
+    quando o incremento em x tende a zero (&Delta;x <img src="setinha.png" width="28" height="14"> 
+    0). Voc&ecirc; concorda com esta afirma&ccedil;&atilde;o? </p>
+  <p>
+   <input name="x13" disabled = "true" type="radio" onClick="if (x14.checked = true) {x14.checked = false;}alert('Resposta Correta!');proximo.disabled = false;proximo.className = 'botao';" value="radiobutton">
+  <label></label>
+  sim</p>
+    
+  <p> 
+    <input name="x14" disabled = "true" type="radio" onClick="if (x13.checked = true) {x13.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>nao</label>
+  </p>
+  <table width="100%" border="0">
+    <tr> 
+      <td width="33%" height="21" align="left"><input name="voltar" class="botao" type="button" onClick="parent.location.href = 'Parte1.htm';" value="Voltar"></td>
+      <td width="33%" align="center" valign="middle"><input name="menuatividades" class="botao" type="button" onClick="parent.location.href = '../MenuTaxas.htm';" value="Menu Atividades"></td>
+      <td width="34%" align="right"><input name="proximo" class="desativado" disabled = "disabled" type="button" onClick="parent.location.href = 'Parte3.htm';" value="Pr&oacute;ximo"></td>
+    </tr>
+  </table>
+  </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../../estilo.css" type="text/css">
+<title>Atividade 3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#006666" text="#FFFFFF">
+<table width="100%" border="0">
+  <tr> 
+    <td width="80%"> </td>
+	<td class="topo" align="right" width = "20%">Atividade 3 : Variação linear da altura de um triângulo</td>
+      </tr>
+</table>
+<table width="100%" height="93" border="5">
+  <tr> 
+    <td valign="top" align="justify"><p>A altura de um tri&acirc;ngulo cresce a uma taxa de 1cm/min, 
+        enquanto a &aacute;rea do tri&acirc;ngulo cresce a uma taxa de 2 cm&sup2;/min. 
+        A que taxa est&aacute; variando a base do tri&acirc;ngulo quando a altura 
+        &eacute; 10 cm e a &aacute;rea, 100 cm&sup2;?</p>
+      <table width="100%" border="0">
+        <tr> 
+          <td align="right">JAMES STEWART, 5&ordf;&nbsp; edi&ccedil;&atilde;o, 
+            p.260 - n&ordm; 15.</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<p>3.2) Preencha - os: </p>
+<form name="form1" method="post" action="">
+  <p>dh/dt =&nbsp; 
+    <input name="resposta1" type="text" onChange="if (value == 1) {alert('Correto!'); resposta2.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    cm/min</p>
+  <p>dA/dt = 
+    <input name="resposta2" type="text" disabled="true" onChange="if (value == 2) { alert('Correto!'); resposta3.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    cm&sup2;/min</p>
+  <p>h = 
+    <input name="resposta3" type="text" disabled="true" onChange="if (value == 10) { alert('Correto!'); resposta4.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    cm</p>
+  <p>A = 
+    <input name="resposta4" type="text" disabled="true" onChange="if (value == 100) { alert('Correto!'); x1.disabled = false; x2.disabled = false;x3.disabled = false;x4.disabled = false;}
+else { alert('Leia atentamente a atividade');}" size="5">
+    cm&sup2;</p>
+
+  <p>4&ordm;) O que o problema busca? &quot;Marque a op&ccedil;&atilde;o correta&quot;.</p>
+    <input name="x1" type="radio" disabled="true" onClick="if (x2.checked = true) {x2.checked = false;}if (x3.checked = true) {x3.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Resposta correta.'); proximo.disabled = false;proximo.className ='botao';" value="radiobutton">
+    
+  <label>db/dt (A varia&ccedil;&atilde;o da base em rela&ccedil;&atilde;o ao tempo 
+  ou a velocidade com que a base est&aacute; no momento citado).</label>
+  </p>
+  <p>
+    <input name="x2" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x3.checked = true) {x3.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>dh/dA (A varia&ccedil;&atilde;o da altura em rela&ccedil;&atilde;o 
+    a &aacute;rea do tri&acirc;ngulo).</label>
+  </p>
+  <p>
+    <input name="x3" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x2.checked = true) {x2.checked = false;}if (x4.checked = true) {x4.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    <label>b (O valor da base no momento).</label>
+  </p>
+  <p> 
+    <input name="x4" type="radio" disabled="true" onClick="if (x1.checked = true) {x1.checked = false;}if (x2.checked = true) {x2.checked = false;}if (x3.checked = true) {x3.checked = false;}alert('Leia atentamente a atividade');" value="radiobutton">
+    dA/db (A varia&ccedil;&atilde;o da &aacute;rea em rela&ccedil;&atilde;o a 
+    base).</p>
+  <table width="100%" border="0">
+    <tr> 
+      <td width="33%" height="21" align="left"><input name="voltar" class="botao" type="button" onClick="parent.location.href = 'Atividade 3-1.htm';" value="Voltar"></td>
+      <td width="33%" align="center" valign="middle"><input name="menuatividades" class="botao" type="button" onClick="parent.location.href = '../menuprincipal.htm';" value="Menu Atividades"></td>
+      <td width="34%" align="right"><input name="proximo" class="desativado" disabled = "disabled" type="button" onClick="parent.location.href = 'Atividade 3-3.htm';" value="Pr&oacute;ximo"></td>
+    </tr>
+  </table>
+ </form>
+</body>
+</html>
